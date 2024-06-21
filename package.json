@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "json5": "^2.2.3",
+    "puppeteer": "^22.12.0",
+    "puppeteer-core": "^22.12.0"
+  },
+  "name": "scrapper",
+  "description": "npm install --global generate generate-gitignore gen gitignore",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Constantin Koval",
+  "license": "MIT",
+  "devDependencies": {}
+}
