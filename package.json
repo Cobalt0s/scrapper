@@ -10,7 +10,9 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "gong-index": "node src/gong/index.js",
+    "gong-schema": "node src/gong/schema.js"
   },
   "author": "Constantin Koval",
   "license": "MIT",
