@@ -1,5 +1,15 @@
-npm install --global generate generate-gitignore
-gen gitignore
 
-npm init
-npm i puppeteer
+# Scrapper
+
+Collects index of endpoints documentation.
+Extracts schema for every GET endpoint.
+
+# Supported Companies
+
+* [Gong](https://www.gong.io/)
+
+# Run
+
+```shell
+npm run gong-schema
+```
