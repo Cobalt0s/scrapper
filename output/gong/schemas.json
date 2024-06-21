@@ -1,7 +1,6 @@
 {
-	"data": [
-		{
-			"name": "get-/v2/calls",
+	"data": {
+		"calls": {
 			"displayName": "Retrieve call data by date range (/v2/calls)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/calls",
 			"fields": {
@@ -27,8 +26,7 @@
 				"calendarEventId": "calendarEventId"
 			}
 		},
-		{
-			"name": "get-/v2/calls/manual-crm-associations",
+		"calls/manual-crm-associations": {
 			"displayName": "List all calls that were manually associated with CRM objects (/v2/calls/manual-crm-associations) in Beta Phase",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/calls/manual-crm-associations",
 			"fields": {
@@ -38,8 +36,7 @@
 				"associatedCrmObjects": "associatedCrmObjects"
 			}
 		},
-		{
-			"name": "get-/v2/users",
+		"users": {
 			"displayName": "List all users (/v2/users)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/users",
 			"fields": {
@@ -61,8 +58,7 @@
 				"spokenLanguages": "spokenLanguages"
 			}
 		},
-		{
-			"name": "get-/v2/users/-id-/settings-history",
+		"users/-id-/settings-history": {
 			"displayName": "Retrieve user settings history (/v2/users/{id}/settings-history)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/users/-id-/settings-history",
 			"fields": {
@@ -71,8 +67,7 @@
 				"time": "time"
 			}
 		},
-		{
-			"name": "get-/v2/settings/scorecards",
+		"settings/scorecards": {
 			"displayName": "Retrieve scorecards details (/v2/settings/scorecards)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/settings/scorecards",
 			"fields": {
@@ -86,8 +81,7 @@
 				"questions": "questions"
 			}
 		},
-		{
-			"name": "get-/v2/settings/trackers",
+		"settings/trackers": {
 			"displayName": "Retrieve tracker details (/v2/settings/trackers)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/settings/trackers",
 			"fields": {
@@ -109,8 +103,7 @@
 				"updaterUserId": "updaterUserId"
 			}
 		},
-		{
-			"name": "get-/v2/workspaces",
+		"workspaces": {
 			"displayName": "List all company workspaces (/v2/workspaces)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/workspaces",
 			"fields": {
@@ -119,8 +112,7 @@
 				"description": "description"
 			}
 		},
-		{
-			"name": "get-/v2/library/folder-content",
+		"library/folder-content": {
 			"displayName": "List of calls in a specific folder (/v2/library/folder-content)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/library/folder-content",
 			"fields": {
@@ -133,8 +125,7 @@
 				"snippet": "snippet"
 			}
 		},
-		{
-			"name": "get-/v2/library/folders",
+		"library/folders": {
 			"displayName": "Retrieve Library folders (/v2/library/folders)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/library/folders",
 			"fields": {
@@ -145,8 +136,7 @@
 				"updated": "updated"
 			}
 		},
-		{
-			"name": "get-/v2/crm/integrations",
+		"crm/integrations": {
 			"displayName": "Get Generic CRM integration details (/v2/crm/integrations)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/crm/integrations",
 			"fields": {
@@ -155,8 +145,7 @@
 				"name": "name"
 			}
 		},
-		{
-			"name": "get-/v2/crm/request-status",
+		"crm/request-status": {
 			"displayName": "Get Request Status (/v2/crm/request-status)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/crm/request-status",
 			"fields": {
@@ -164,8 +153,7 @@
 				"description": "description"
 			}
 		},
-		{
-			"name": "get-/v2/logs",
+		"logs": {
 			"displayName": "Retrieve logs data by type and time range (/v2/logs)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/logs",
 			"fields": {
@@ -180,8 +168,7 @@
 				"logRecord": "logRecord"
 			}
 		},
-		{
-			"name": "get-/v2/all-permission-profiles",
+		"all-permission-profiles": {
 			"displayName": "List all company permission profiles for a given workspace (/v2/all-permission-profiles)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/all-permission-profiles",
 			"fields": {
@@ -225,8 +212,7 @@
 				"crmDataImport": "crmDataImport"
 			}
 		},
-		{
-			"name": "get-/v2/permission-profile/users",
+		"permission-profile/users": {
 			"displayName": "List all users attached to a given permission profile (/v2/permission-profile/users)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/permission-profile/users",
 			"fields": {
@@ -235,8 +221,7 @@
 				"emailAddress": "emailAddress"
 			}
 		},
-		{
-			"name": "get-/v2/flows",
+		"flows": {
 			"displayName": "List Gong Engage flows (/v2/flows)",
 			"url": "https://gong.app.gong.io/settings/api/documentation#get-/v2/flows",
 			"fields": {
@@ -248,5 +233,5 @@
 				"creationDate": "creationDate"
 			}
 		}
-	]
+	}
 }

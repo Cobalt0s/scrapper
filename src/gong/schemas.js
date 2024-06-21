@@ -11,18 +11,18 @@ async function main() {
   const modelsIndex = JSON.parse(fs.readFileSync('output/gong/index.json', 'utf8'));
 
   const schemaRegistry = {
-    "data": []
+    "data": {},
   }
   for (const x of modelsIndex["data"]) {
     const fields = await getObjectMetadata(page, x["url"]);
     if (fields.length > 0) {
       let entry = {
-        "name": x["name"],
         "displayName": x["displayName"],
         "url": x["url"],
         "fields": {},
       };
-      schemaRegistry["data"].push(entry);
+      let name = x["name"].split("v2/")[1];
+      schemaRegistry["data"][name] = entry;
       fields.forEach(field => {
         entry["fields"][field] = field;
       });
