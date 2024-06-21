@@ -11,5 +11,5 @@ Extracts schema for every GET endpoint.
 # Run
 
 ```shell
-npm run gong-schema
+npm run gong-schemas
 ```

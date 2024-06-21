@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "gong-index": "node src/gong/index.js",
-    "gong-schema": "node src/gong/schema.js"
+    "gong-schemas": "node src/gong/schemas.js"
   },
   "author": "Constantin Koval",
   "license": "MIT",

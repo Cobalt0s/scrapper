@@ -32,7 +32,7 @@ async function main() {
 
   const dir = "output/gong";
   fs.mkdirSync(dir, { recursive: true })
-  fs.writeFileSync(dir + '/schema.json', JSON.stringify(schemaRegistry, null, "\t"));
+  fs.writeFileSync(dir + '/schemas.json', JSON.stringify(schemaRegistry, null, "\t"));
 
   await browser.close();
 }
