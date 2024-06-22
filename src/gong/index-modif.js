@@ -7,10 +7,10 @@ async function main() {
     const links = await loadGetURLs(page);
 
     const payload = {
-      "data": links.filter(x => x["name"].startsWith("get")),
+      "data": links.filter(x => !x["name"].startsWith("get")),
     };
 
-    await writeFile( "output/gong","index.json", payload)
+    await writeFile( "output/gong","index-modifications.json", payload)
 
   })
 }

@@ -1,0 +1,164 @@
+{
+	"data": [
+		{
+			"name": "post-/v2/calls",
+			"displayName": "Add new call (/v2/calls)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/calls"
+		},
+		{
+			"name": "put-/v2/calls/-id-/media",
+			"displayName": "Add call media (/v2/calls/{id}/media)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/calls/-id-/media"
+		},
+		{
+			"name": "post-/v2/calls/extensive",
+			"displayName": "Retrieve detailed call data by various filters (/v2/calls/extensive)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/calls/extensive"
+		},
+		{
+			"name": "post-/v2/calls/transcript",
+			"displayName": "Retrieve transcripts of calls (/v2/calls/transcript)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/calls/transcript"
+		},
+		{
+			"name": "post-/v2/users/extensive",
+			"displayName": "List users by filter (/v2/users/extensive)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/users/extensive"
+		},
+		{
+			"name": "post-/v2/stats/activity/aggregate",
+			"displayName": "Retrieve aggregated activity for defined users by date (/v2/stats/activity/aggregate)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/stats/activity/aggregate"
+		},
+		{
+			"name": "post-/v2/stats/activity/aggregate-by-period",
+			"displayName": "Retrieve aggregated activity for defined users by a date range with grouping in time periods (/v2/stats/activity/aggregate-by-period)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/stats/activity/aggregate-by-period"
+		},
+		{
+			"name": "post-/v2/stats/activity/day-by-day",
+			"displayName": "Retrieve daily activity for applicable users for a date range (/v2/stats/activity/day-by-day)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/stats/activity/day-by-day"
+		},
+		{
+			"name": "post-/v2/stats/activity/scorecards",
+			"displayName": "Retrieve answered scorecards for applicable reviewed users or scorecards for a date range (/v2/stats/activity/scorecards)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/stats/activity/scorecards"
+		},
+		{
+			"name": "post-/v2/stats/interaction",
+			"displayName": "Retrieve interaction stats for applicable users by date (/v2/stats/interaction)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/stats/interaction"
+		},
+		{
+			"name": "post-/v2/data-privacy/erase-data-for-email-address",
+			"displayName": "Delete the email address, and all associated elements (/v2/data-privacy/erase-data-for-email-address)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/data-privacy/erase-data-for-email-address"
+		},
+		{
+			"name": "post-/v2/data-privacy/erase-data-for-phone-number",
+			"displayName": "Delete the phone number, and all associated elements (/v2/data-privacy/erase-data-for-phone-number)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/data-privacy/erase-data-for-phone-number"
+		},
+		{
+			"name": "post-/v2/crm/entities",
+			"displayName": "Upload CRM objects (/v2/crm/entities)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/crm/entities"
+		},
+		{
+			"name": "post-/v2/crm/entity-schema",
+			"displayName": "Upload Object Schema (/v2/crm/entity-schema)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/crm/entity-schema"
+		},
+		{
+			"name": "put-/v2/crm/integrations",
+			"displayName": "Register a Generic CRM integration (/v2/crm/integrations)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/crm/integrations"
+		},
+		{
+			"name": "delete-/v2/crm/integrations",
+			"displayName": "Delete a Generic CRM integration (/v2/crm/integrations)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#delete-/v2/crm/integrations"
+		},
+		{
+			"name": "post-/v2/meetings",
+			"displayName": "Create a New Gong Meeting (/v2/meetings)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/meetings"
+		},
+		{
+			"name": "put-/v2/meetings/-meetingId-",
+			"displayName": "Update a Gong Meeting (/v2/meetings/{meetingId})",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/meetings/-meetingId-"
+		},
+		{
+			"name": "delete-/v2/meetings/-meetingId-",
+			"displayName": "Delete a Gong Meeting (/v2/meetings)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#delete-/v2/meetings/-meetingId-"
+		},
+		{
+			"name": "post-/v2/meetings/integration/status",
+			"displayName": "Validate Gong meeting Integration (/v2/meetings/integration/status)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/meetings/integration/status"
+		},
+		{
+			"name": "put-/v2/calls/users-access",
+			"displayName": "Give individual users access to calls (/v2/calls/users-access)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/calls/users-access"
+		},
+		{
+			"name": "post-/v2/calls/users-access",
+			"displayName": "Retrieve users that have specific individual access to calls (/v2/calls/users-access)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/calls/users-access"
+		},
+		{
+			"name": "delete-/v2/calls/users-access",
+			"displayName": "Remove specific individual users access from calls (/v2/calls/users-access)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#delete-/v2/calls/users-access"
+		},
+		{
+			"name": "put-/v2/permission-profile",
+			"displayName": "Update permission profile (/v2/permission-profile)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/permission-profile"
+		},
+		{
+			"name": "post-/v2/permission-profile",
+			"displayName": "Create permission profile (/v2/permission-profile)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/permission-profile"
+		},
+		{
+			"name": "post-/v2/flows/prospects",
+			"displayName": "List assigned flows for the given prospects (/v2/flows/prospects)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/flows/prospects"
+		},
+		{
+			"name": "post-/v2/flows/prospects/assign",
+			"displayName": "Assign a Gong Engage flow to prospects (/v2/flows/prospects/assign)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/flows/prospects/assign"
+		},
+		{
+			"name": "post-/v2/digital-interaction",
+			"displayName": "Post a Digital Interaction (/v2/digital-interaction)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/digital-interaction"
+		},
+		{
+			"name": "post-/v2/integration-settings",
+			"displayName": "Integration Settings (/v2/integration-settings)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#post-/v2/integration-settings"
+		},
+		{
+			"name": "put-/v2/customer-engagement/action",
+			"displayName": "Report event of a custom action (/v2/customer-engagement/action)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/customer-engagement/action"
+		},
+		{
+			"name": "put-/v2/customer-engagement/content/shared",
+			"displayName": "Report event of a content share (/v2/customer-engagement/content/shared)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/customer-engagement/content/shared"
+		},
+		{
+			"name": "put-/v2/customer-engagement/content/viewed",
+			"displayName": "Report event of a content view (/v2/customer-engagement/content/viewed)",
+			"url": "https://gong.app.gong.io/settings/api/documentation#put-/v2/customer-engagement/content/viewed"
+		}
+	]
+}

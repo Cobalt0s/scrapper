@@ -2,8 +2,6 @@ import * as fs from 'fs';
 import puppeteer from "puppeteer";
 import json5 from "json5";
 
-await main()
-
 async function main() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -75,3 +73,5 @@ async function getObjectMetadata(page, modelURL) {
     return [];
   }
 }
+
+await main()

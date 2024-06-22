@@ -11,6 +11,7 @@
   "type": "module",
   "scripts": {
     "gong-index": "node src/gong/index.js",
+    "gong-index-modif": "node src/gong/index-modif.js",
     "gong-schemas": "node src/gong/schemas.js"
   },
   "author": "Constantin Koval",
