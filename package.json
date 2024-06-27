@@ -12,7 +12,8 @@
   "scripts": {
     "gong-index": "node src/gong/index.js",
     "gong-index-modif": "node src/gong/index-modif.js",
-    "gong-schemas": "node src/gong/schemas.js"
+    "gong-schemas": "node src/gong/schemas.js",
+    "gong-opp-summary": "node src/gong/opperation-summmary.js"
   },
   "author": "Constantin Koval",
   "license": "MIT",
